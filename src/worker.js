@@ -111,7 +111,6 @@ Worker.prototype.toContainer = function toContainer() {
     var containerCSS = {
       position: 'absolute', width: this.prop.pageSize.inner.width + this.prop.pageSize.unit,
       left: 0, right: 0, top: 0, height: 'auto', margin: 'auto',
-      backgroundColor: 'white'
     };
 
     // Set the overlay to hidden (could be changed in the future to provide a print preview).

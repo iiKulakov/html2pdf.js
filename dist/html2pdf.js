@@ -742,7 +742,6 @@ Worker.prototype.toContainer = function toContainer() {
       top: 0,
       height: 'auto',
       margin: 'auto',
-      backgroundColor: 'white'
     }; // Set the overlay to hidden (could be changed in the future to provide a print preview).
 
     overlayCSS.opacity = 0; // Create and attach the elements.
